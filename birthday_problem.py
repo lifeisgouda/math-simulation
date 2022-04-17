@@ -12,6 +12,7 @@ for _ in range(TRIALS):
         birthday = random.randint(1, 365)
         if birthday in birthdays:
             same_birthday += 1
+            print(same_birthday)
             break
         birthdays.append(birthday)
 
